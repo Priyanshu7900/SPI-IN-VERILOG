@@ -16,7 +16,7 @@ module dac_converter(input clk100mhz,rst=0,start_write=0,
    reg clk1mhz=0;
   
   //////////////////// generation of the 1 mhz clk from the 100 mhz system clk
-  always@(posedge clk100mhz)
+  always@(posedge clk100mhz)  ///////// at the time of simulation i toggled the sclk when clk_count becomes 4 i mean freq of sclk=1/10 of freq of clk1000mhz i.e 10mhz
     begin
       if(clk_count==49)
         begin
