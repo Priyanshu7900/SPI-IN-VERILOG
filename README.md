@@ -141,7 +141,7 @@ run -all
 ---
 
 ## References
-- [SPI Bus Overview – Texas Instrumnets]([https://en.wikipedia.org/wiki/Serial_Peripheral_Interface](https://www.ti.com/content/dam/videos/external-videos/en-us/6/3816841626001/6163521589001.mp4/subassets/basics-of-spi-serial-communications-presentation.pdf))
+- [SPI Bus Overview – Texas Instruments]([https://en.wikipedia.org/wiki/Serial_Peripheral_Interface](https://www.ti.com/content/dam/videos/external-videos/en-us/6/3816841626001/6163521589001.mp4/subassets/basics-of-spi-serial-communications-presentation.pdf)
 - FPGA4Student & ASIC World SPI tutorials
 
 ---
