@@ -75,22 +75,22 @@ SPI-IN-VERILOG/
 
 ## Description of Major Folders
 
-###  PMODA4_DAC_WITH_SPI/
+###  PMODA4_DAC_WITH_SPI
 Implements an SPI interface to control a **PMODA4 DAC (Digital-to-Analog Converter)**. Demonstrates how to send control words to external SPI hardware.
 
-###  SPI_DAISY_CHAIN_CONFIGURATION/
+###  SPI_DAISY_CHAIN_CONFIGURATION
 Shows how multiple SPI slaves can be **daisy-chained** together and accessed serially from a single SPI master. Demonstrates shift propagation and timing.
 
-###  SPI_IN_PARALLEL_MODE/
+###  SPI_IN_PARALLEL_MODE
 Demonstrates a **parallel SPI** structure, where multiple data lines are used for faster transfer. A learning example for high-speed SPI alternatives.
 
-###  SPI_MASTER_SLAVE/
+###  SPI_MASTER_SLAVE
 The **basic SPI example**: one master and one slave communicating 8-bit data. The simplest example to understand SPI fundamentals.
 
-###  SPI_SUPPORTING_DIFFERENT_MODES/
+###  SPI_SUPPORTING_DIFFERENT_MODES
 Implements SPI **Mode 0–3** (combinations of CPOL and CPHA). Demonstrates how clock polarity and phase affect data sampling.
 
-###  SPI_WITH_CRC_ERROR_CHECKING/
+###  SPI_WITH_CRC_ERROR_CHECKING
 Adds **CRC (Cyclic Redundancy Check)** for error detection in SPI data transfer. Demonstrates reliability improvement in communication.
 
 ---
