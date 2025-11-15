@@ -122,7 +122,7 @@ always@(posedge clk or posedge rst)
           count<=0;
           bitcount<=4'b0111;
           if(spi_edges==0)
-          cs<=0;
+          cs<=1;
           else
           cs<=cs;
         end
